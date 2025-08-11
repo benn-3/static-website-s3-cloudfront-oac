@@ -36,7 +36,7 @@ This project demonstrates how I hosted my **static website** securely and global
 6. (Optional) Enable **Static Website Hosting** for testing.
 
 📸 Screenshot:  
-![S3 Bucket Setup](screenshots/s3-bucket-setup.png)
+![S3 bucket setup](screenshot/S3-bucket-setup.png)
 
 ---
 
@@ -50,7 +50,11 @@ This project demonstrates how I hosted my **static website** securely and global
 7. (Optional) Add a **Custom Domain** and link an ACM SSL certificate.
 
 📸 Screenshot:  
-![CloudFront Distribution](screenshots/cloudfront-distribution.png)
+![CloudFront Distribution](screenshot/Distribution.png)
+
+
+
+![CloudFront Origin setup](screenshot/Origin.png)
 
 ---
 
@@ -88,10 +92,14 @@ CloudFront → Invalidations → Create Invalidation.
 
 Path: /* → Create.
 
+![Invalidation process](screenshot/Invalidation.png)
+
 Step 5 – Test Your Website
 CloudFront URL:
 
 https://d3asgsndmtcp1g.cloudfront.net/index.html
+
+![Final hosted website](screenshot/Website.png)
 
 
 ✅ Benefits of This Setup
